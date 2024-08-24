@@ -1,0 +1,256 @@
+body{
+    background-color: aqua;
+
+}
+.border{
+    border: 1px solid rgb(22, 22, 22);
+    background-color: rgb(244, 244, 244);
+}
+
+.estilos{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+}
+
+.logo{
+    width: 100%;
+
+    justify-content: center;
+
+
+    
+}
+.nombre{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu{
+    width: 100%;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.registro{
+    width: 100%;
+    
+
+}
+.buscar{
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+.fondo{
+    background-image: url("/img/pngtree-3d-apple-apple-hd-wallpapers-picture-image_2742305.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+
+
+
+
+.buscador {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.estilos{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+
+
+
+.imagen{
+    width: 10%;
+}
+
+ 
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 300px) {
+    body{
+        background-color: yellow;
+
+    }
+
+    .logo{
+        width: 50%;
+    }
+    .nombre{
+        width: 100%;
+    }
+    
+    .menu{
+        width: 100%;
+    }
+    .registro{
+        width: 50%;
+    }
+    .buscar{
+        width: 50%;
+        display: none;
+    }
+   
+    
+
+}
+
+.servicios{
+    width: 100%
+}
+
+.contenido{
+    width: 100%;
+}
+
+
+.imagen{
+    width: 30%;
+}
+
+@media screen and (min-width: 301px) and (max-width:600px){
+    body{
+        background-color: blue;
+
+    }
+    .logo{
+        width: 30%;
+    }
+    .nombre{
+        width: 40%;
+    }
+    
+    .menu{
+        width: 30%;
+    }
+    .registro{
+        width: 50%;
+    }
+    .buscar{
+        width: 50%;
+        display: none;
+    }
+    
+ 
+    .servicios{
+        width: 100%
+    }
+    
+    .contenido{
+        width: 100%;
+    }
+    
+    .imagen{
+        width: 30%;
+    }
+    
+    
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px){
+    body{
+        background-color: red;
+    }
+    .logo{
+        width: 30%;
+    }
+    .nombre{
+        width: 30%;
+    }
+    
+    .menu{
+        width: 30%;
+    }
+    .registro{
+        width: 10%;
+    }
+    .buscar{
+        width: 100%;
+    }
+    
+    .servicios{
+        width: 100%
+    }
+    
+    .contenido{
+        width: 100%;
+    }
+    .imagen{
+        width: 30%;
+    }
+    
+    
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px){
+    body{
+        background-color: violet;
+    }
+
+    .logo{
+        width: 10%;
+    }
+    .nombre{
+        width: 20%;
+    }
+    
+    .menu{
+        width: 40%;
+    }
+    .registro{
+        width: 20%;
+    }
+    .buscar{
+        width: 10%;
+    }
+    
+    .servicios{
+        width: 100%
+    }
+    
+    .contenido{
+        width: 100%;
+    }
+    .imagen{
+        width: 30%;
+    }
+    
+    
+    
+
+
+}
+
+
+
+
+
+
+
